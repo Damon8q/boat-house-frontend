@@ -10,7 +10,66 @@
       <h5 class="text-center font-weight-light mt-2 mb-0 text-muted">
           Great food, great people!
       </h5>
-      <hr class="mb-5 w-50 mx-auto" />
+     <hr class="mb-5 w-50 mx-auto" />
+        <!-- Products cards -->
+        <div class="card-deck-wrapper">
+          <div class="card-deck">
+            <!-- Product 1 -->
+            <div class="card product-card">
+              <!-- Image & price content -->
+              <div class="pos-relative">
+                <img class="card-img-top img-fluid" src="assets/img/product/boathouse01.png" alt="Card image cap">
+              </div>
+              <!-- Content -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  蜂蜜烤猪肉
+                </h5>
+
+              </div>
+              <div class="card-footer">
+                <a id="a"  name="vote" class="btn btn-primary text-light" value="a" v-on:click="likeProduct('a')"> ❤ 好吃</a>
+              </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="card product-card">
+              <!-- Image & price content -->
+              <div class="pos-relative">
+                <img class="card-img-top img-fluid" src="assets/img/product/boathouse02.png" alt="Card image cap">
+              </div>
+              <!-- Content -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  牛肉haggis
+                </h5>
+              </div>
+              <div class="card-footer">
+                <a id="b"  name="vote" class="btn btn-primary text-light" value="b" v-on:click="likeProduct('b')"> ❤ 好吃</a>
+              </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="card product-card">
+              <!-- Image & price content -->
+              <div class="pos-relative">
+                <img class="card-img-top img-fluid" src="assets/img/product/boathouse03.png" alt="Card image cap">
+              </div>
+              <!-- Content -->
+              <div class="card-body">
+                <h5 class="card-title">
+                  红酒炖羊腿
+                </h5>
+              </div>
+              <div class="card-footer">
+                <a id="c"  name="vote" class="btn btn-primary text-light" value="c" v-on:click="likeProduct('c')"> ❤ 好吃</a>
+              </div>
+            </div>
+
+          </div>
+          <br/>
+
+          </div>
+
+        </div>
 
       <div class="card-deck-wrapper"  >
         <div class="card-deck"> 
